@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+type: software
+title: "Delay Independent Safe Control with Neural Networks: Positive Lur'e Certificates (code)"
+abstract: "Code for the ACC 2026 paper: certificates of local exponential stability for a linear plant with a feedforward neural network controller under state and input delays and interval-matrix uncertainty, using local sector bounds and positive Lur'e systems, benchmarked against an SDP-based IQC baseline."
+authors:
+  - family-names: "Montazeri Hedesh"
+    given-names: "Hamidreza"
+    orcid: "https://orcid.org/0009-0007-0041-830X"
+    affiliation: "Northeastern University"
+repository-code: "https://github.com/hmon91/Delay-independant-safety-of-NN-controllers"
+url: "https://hmon91.github.io/publication/2026-05-01-acc-delay"
+license: MIT
+keywords:
+  - "neural network controllers"
+  - "time-delay systems"
+  - "delay-independent stability"
+  - "interval uncertainty"
+  - "safe control"
+  - "Lur'e systems"
+  - "positive systems"
+  - "IQC"
+preferred-citation:
+  type: conference-paper
+  title: "Delay Independent Safe Control with Neural Networks: Positive Lur'e Certificates for Risk Aware Autonomy"
+  authors:
+    - family-names: "Montazeri Hedesh"
+      given-names: "Hamidreza"
+      orcid: "https://orcid.org/0009-0007-0041-830X"
+    - family-names: "Siami"
+      given-names: "Milad"
+      orcid: "https://orcid.org/0000-0001-7253-4464"
+  collection-title: "2026 American Control Conference (ACC)"
+  conference:
+    name: "American Control Conference (ACC)"
+    city: "New Orleans, LA"
+    country: "US"
+  publisher:
+    name: "IEEE"
+  start: 134
+  end: 141
+  year: 2026
+  url: "https://ieeexplore.ieee.org/document/11616300"
+  identifiers:
+    - type: url
+      value: "https://arxiv.org/abs/2510.06661"
+      description: "Free preprint on arXiv"

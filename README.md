@@ -2,9 +2,10 @@
 
 Code accompanying the paper
 
-> **Delay-Independent Safe Control with Neural Networks: Positive Lur'e Certificates for Risk-Aware Autonomy**
-> Hamidreza Montazeri and Milad Siami, Northeastern University
-> [arXiv:2510.06661](https://arxiv.org/abs/2510.06661)
+> H. Montazeri Hedesh and M. Siami,
+> **"Delay Independent Safe Control with Neural Networks: Positive Lur'e Certificates for Risk Aware Autonomy,"**
+> *2026 American Control Conference (ACC)*, New Orleans, LA, USA, 2026, pp. 134-141.
+> [IEEE Xplore](https://ieeexplore.ieee.org/document/11616300) · [arXiv:2510.06661](https://arxiv.org/abs/2510.06661) (free preprint)
 
 This repository certifies **local exponential stability** of a linear plant in feedback with a
 **feedforward neural-network (NN) controller**, in the presence of two realistic risks:
@@ -167,7 +168,23 @@ run benchmarks/benchmark_iqc.m          % needs CVX + SeDuMi
 
 ## Citation
 
-See [`CITATION.bib`](CITATION.bib).
+If you use this code, please cite the ACC 2026 paper. GitHub's "Cite this repository" button
+(from [`CITATION.cff`](CITATION.cff)) gives the same reference in other formats.
+
+```bibtex
+@inproceedings{montazerihedesh2026delay,
+  author        = {Montazeri Hedesh, Hamidreza and Siami, Milad},
+  title         = {Delay Independent Safe Control with Neural Networks: Positive {Lur'e} Certificates for Risk Aware Autonomy},
+  booktitle     = {2026 American Control Conference (ACC)},
+  address       = {New Orleans, LA, USA},
+  pages         = {134--141},
+  year          = {2026},
+  url           = {https://ieeexplore.ieee.org/document/11616300},
+  eprint        = {2510.06661},
+  archivePrefix = {arXiv},
+  primaryClass  = {eess.SY}
+}
+```
 
 ## License
 
